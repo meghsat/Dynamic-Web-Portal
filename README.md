@@ -3,6 +3,11 @@ my website was build on localhost using XAMPP with key specifications like-- CAP
 
 kindly please read this entire document to get clarity on what my website can do
 
+in order to make this website you need the following softwares::
+1. XAMPP is enough since it contains the APACHE, MYSQL inbuilt
+2. text editor like notepad++/sublime text/atom etc..,
+
+
 things you should know before diving into the website-->
 
 1. this website is build on a localhost using XAMPP:XAMPP stands for Cross-Platform (X), Apache (A), MariaDB (M), PHP (P) and Perl (P)
