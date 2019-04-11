@@ -1,0 +1,69 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 120%; /*sets the font size of entire text in the body*/
+  background: #010119; /*background color here we used image so no color is displayed*/
+  
+}
+
+.header { /* heading section */
+  width: 30%; /*the width of the header file */
+  margin: 100px auto 0px;  /*margin (top right bottom left)  https://www.w3schools.com/CSS/css_margin.asp   margin is used ti create space around elements outside of any defined borders  AUTO-- browser caluclates margin itself */
+  color: white; /* color of the text in the header*/
+  background: #010119; /* color of the header background which is black*/
+  text-align: center;/* header text is aligned to centre*/
+  border: 3px solid #f9ad07; /* the border surrounding the header tab only and which is yellow in color*/
+  border-bottom: none; /*the color of botton border in the header tab which is set to nonew*/
+  border-radius: 20px 20px 0px 0px; /* border radius topleft, top right, bottom left and right*/
+  padding: 10px; /* padding (top right bottom left)--> the CSS padding properties are used to generate space around the text content,inside the input box */
+}
+form, .content {
+  width: 30%; /* width of the contents that are present below the header tab  */
+  margin: 0px auto 0px; /* margin means the distance between the above header and the contents(email username etc..*/
+  padding: 10px; 
+  border: 3px solid #f9ad07;
+  background: white;
+  border-radius: 0px 0px 10px 10px;
+}
+.input-group {
+  margin: 10px 0px 10px 0px; /* THIS IS THE MOST IMPORTANT PART(margin top bottom right left)-- here 10ps->the distance of first input to the header bottom,, 0px--> the left side distance between left side main border and the inputs and lables 10px--> distance between bottom border and the below input (button) */
+}
+.input-group label {
+  display: block ; /* specifies the display behavior of the things you specified(here LABELS) refer::https://www.w3schools.com/cssref/pr_class_display.asp  if block then each label will be displayed one line below other */
+  text-align: left;
+  margin: 10px; /* distrance between each label and its corresponding top*/
+}
+.input-group input {
+  height: 30px; /* height of the input box */
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #5F9EA0;
+  border: none;
+  border-radius: 5px;
+}
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+.success {
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
