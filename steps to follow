@@ -1,0 +1,24 @@
+follow the below steps to make the website work--->
+
+i attached all the codes, all you need is to run them in order
+
+what does each code do:
+1. REGISTER -> generates a registration page and if you are already registered then there will be a link that takes you to login page
+2. LOGIN -> generates a login page where you have to enter your credentials.
+3. INDEX -> once you entered your credentials you will be directed to a new welcome index page here, you can logout by killing the session.
+4. ERRORS -> all the error combinations like 
+                                            a. empty username, emails etc..
+                                            b. entered passwords not matching.
+                                            c. trying to register again with an already existing username or email
+5. CAPTCHA -> helps to generate a new password everytime when ever the page reloads 
+6. MAILFORNEWPASSWORD -> whenever you click "forgot password" in login page it will redirect you to this page where you have to enter your email address to recieve the link to set a new password
+7. NEWPASSWORD -> this page arrises when you click the link that came to your email this allows you to reset your password
+8. SENDMAIL -> this contains the recievers e-mail id who requested for password reset , and the link of the passwowrd reset page.
+9. SERVER -> this contains all the server related part like
+                                            a. retrieving data, inserting new users data.
+                                            b. error checking.
+10. style_new3 -> contains all the CSS part. 
+
+STEPS TO FOLLOW IN ORDER:
+step1-> download xampp and a text editor
+step2-> first run the register code using -- localhost/websiteproject/register.php
