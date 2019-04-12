@@ -1,0 +1,21 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 120%; /*sets the font size of entire text in the body*/
+  background: #010119; /*background color here we used image so no color is displayed*/
+  
+}
+
+.header { /* heading section */
+  width: 30%; /*the width of the header file */
+  margin: 100px auto 0px;  /*margin (top right bottom left)  https://www.w3schools.com/CSS/css_margin.asp   margin is used ti create space around elements outside of any defined borders  AUTO-- browser caluclates margin itself */
+  color: white; /* color of the text in the header*/
+  background: #010119; /* color of the header background which is black*/
+  text-align: center;/* header text is aligned to centre*/
+  border: 3px solid #f9ad07; /* the border surrounding the header tab only and which is yellow in color*/
+  border-bottom: 3px solid #f9ad07; /*the color of botton border in the header tab which is set to nonew*/
+  border-radius: 0px 0px 0px 0px; /* border radius topleft, top right, bottom left and right*/
+  padding: 10px; /* padding (top right bottom left)--> the CSS padding properties are used to generate space around the text content,inside the input box */
+}
