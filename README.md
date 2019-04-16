@@ -23,6 +23,7 @@ PHP --->> The PHP Hypertext Preprocessor (PHP) is a programming language that al
 2. later a login page will be arrived, there you have to enter your credentials and even the CAPTCHA it will raise errors if you enter any wrong credentials accordingly.
 3.there will be forgot password option in the login page, if you click there it will redirect you to a new page where you have to give your email id. then a link will be sent to you email to reset your password 😍" THIS LINK WILL EXPIRE WITHIN 24 HOURS😍".
 4.🤩😃IF YOU ENTER WRONG PASSWORD FOR THREE TIMES IT WILL SEND A CONFIRMATION MAIL TO YOU
+5. if the user logins for 3 times he will recieve OTP for confirmation..
 4. if you follow the link it will direct you to a new page where you have to give your email id and a new password.
 
 👉👉☺☺☺follow the below steps to make the website work--->
